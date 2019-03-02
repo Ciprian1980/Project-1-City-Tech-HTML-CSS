@@ -1,0 +1,104 @@
+@import url(link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet")
+
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2{
+    color: navy;
+}
+
+li{
+    font-size: 18px;
+    color: grey;
+    list-style: square;
+}
+
+p{
+    font-family: Helvetica;
+}
+
+    /*#photo{
+    background:url(https://stmed.net/sites/default/files/boeing-787-dreamliner-wallpapers-31927-8586244.jpg) ;
+    background-size: cover;
+    }*/
+.parent{
+    position:relative;
+}
+.child{
+    display:relative;
+    
+    font-size:20px;
+    padding:20px;
+    font-family: 'PT Sans', sans-serif;
+}
+.route1{
+    font-size:20px;
+    font-family:verdana;
+    color: black;
+    position:relative;
+    border:1px solid #19d;
+    background-image:linear-gradient(-45deg, #ad4,#7ab,#245,#fff);
+    padding:20px;
+    
+    }
+.route2{
+    font-size:20px;
+    font-family:verdana;
+    color: black;
+    position:relative;
+    border:1px solid #19d;
+    background-image:linear-gradient(-45deg, #fca,#7ab,#245,#fff);
+    padding:20px;
+    
+}
+#specs1{
+    position:relative;
+    background-color: cornsilk;
+    border:1px solid #19d;
+    padding:20px;
+    
+    
+}
+#specs2{
+    position:relative;
+    background-color: bisque;
+    padding:20px;
+    border:1px solid #19d;
+    
+}
+#text{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    
+}
+.rowspan{
+    background-color:#f89;
+}
+.row{
+    background-color: antiquewhite
+}
+a:hover{
+    background-color:cadetblue
+        
+}
+@keyframes throb{
+    0%{
+        background:#ccc;
+        transform:scale(1,1);
+    }
+    100%{background:#458;
+    transform:scale(2,2);
+    }
+}
+.animation{
+    background: blanchedalmond;
+    padding:10px
+    width:200px;
+    text-align: center;
+    animation:2s throb ease-in 2;
+}
+.center{
+    max-width:900px;
+    margin:0 auto;
+}
