@@ -79,7 +79,7 @@ p{
     background-color: antiquewhite
 }
 a:hover{
-    background-color:cadetblue
+    background-color:lightblue
         
 }
 @keyframes throb{
@@ -102,3 +102,21 @@ a:hover{
     max-width:900px;
     margin:0 auto;
 }
+.input{
+    background-color: floralwhite;
+}
+.fontawesome{
+    padding: 15px;
+    font-size: 30px;
+    
+}
+.media{
+    right:35px;
+    list-style-type:none;
+    position:absolute;
+    top:50px;
+    display: inline;
+    
+}
+
+
